@@ -1,0 +1,25 @@
+nav{
+	background-color: lightblue;
+	border: blue;
+	}
+
+
+nav > div > ul > li > a{
+float:right;
+cursor: pointer;
+}
+
+.dropdown-menu :hover {
+	cursor: pointer;
+}
+
+.dropdown :hover {
+	cursor: pointer;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu { display: block; }
+
+
+navbar-nav {
+	width: 100%;
+}
